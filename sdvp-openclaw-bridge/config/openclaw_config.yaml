@@ -1,0 +1,8 @@
+# OpenClaw Gateway Configuration
+bridge_name: "SDVP-MOGUL-AXIS-BRIDGE"
+version: "1.0.0"
+protocols:
+  - ZKP
+  - Secp256k1
+node_primitive: "MOGUL-AXIS"
+security_level: "high-precision"

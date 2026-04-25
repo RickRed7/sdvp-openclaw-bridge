@@ -1,0 +1,15 @@
+sdvp-openclaw-bridge/
+├── .github/workflows/         # CI/CD for ZKP verification
+├── src/
+│   ├── mcp_server.py          # The Bridge: Exposes SDVP as OpenClaw tools
+│   ├── sdvp_core/             # Your IP: The core SDVP logic
+│   │   ├── crypto.py          # Secp256k1 & ZK-Proof logic
+│   │   └── verification.py    # Operational success logic
+│   └── utils/
+│       └── mogul_axis.py      # Re-indexed constants (MOGUL-AXIS)
+├── config/
+│   └── openclaw_config.yaml   # Connection settings for the Gateway
+├── docker-compose.yml         # Containerized deployment
+├── README.md                  # Project Manifesto
+└── requirements.txt
+
